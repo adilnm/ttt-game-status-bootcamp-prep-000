@@ -39,7 +39,7 @@ def over?(board)
 end
 
 def winner(board)
-  if(won?(board)==["X","X","X"])
+  if([board[won?(board)[0],board[won?(board)[1]],board[won?(board)[2]]==["X","X","X"])
     return "X"
     elsif(won?(board)==["O","O","O"])
     return "O"
