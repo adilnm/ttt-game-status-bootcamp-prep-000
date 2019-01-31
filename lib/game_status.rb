@@ -9,6 +9,7 @@ def won(board)
   WIN_COMBINATIONS.each do |win_comb|
     if(board[win_comb[0]]=="X" && board[win_comb[1]]=="X" && board[win_comb[2]]=="X")
       return win_comb
+      elsif(board[win_comb[0]]=="O" && board[win_comb[1]]=="O" && board[win_comb[2]]=="O")
     else 
       return false
     end
