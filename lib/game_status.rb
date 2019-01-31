@@ -9,8 +9,7 @@ def won(board)
   WIN_COMBINATIONS.each do |WIN_COMBINATION|
     if(board[WIN_COMBINATION[0]]==board[WIN_COMBINATION[1]]==board[WIN_COMBINATION[2]])
       return WIN_COMBINATION
-    else 
-      return false
+   
     end
   end
 end
