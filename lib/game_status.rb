@@ -41,7 +41,7 @@ end
 def winner(board)
   if(board[won?(board)[0]]=="X")
     return "X"
-    elsif([board[won?(board)[0]],board[won?(board)[1]],board[won?(board)[2]]]==["O","O","O"])
+    elsif(board[won?(board)[0]]=="O")
     return "O"
   else 
     return false
