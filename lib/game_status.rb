@@ -22,3 +22,7 @@ def full?(board)
   position=="X" || position=="O"
   }
 end
+
+def draw?(board)
+  
+end
