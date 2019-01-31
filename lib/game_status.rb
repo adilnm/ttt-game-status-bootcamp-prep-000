@@ -37,3 +37,7 @@ def over?(board)
   end
   
 end
+
+def winner(board)
+  if(WIN_COMBINATIONS)
+end
