@@ -11,7 +11,8 @@ def won(board)
       return win_comb
       elsif(board[win_comb[0]]=="O" && board[win_comb[1]]=="O" && board[win_comb[2]]=="O")
       return win_comb
-    else 
+    end
+    end 
       return false
     end
   end
