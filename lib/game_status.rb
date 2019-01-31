@@ -39,5 +39,6 @@ def over?(board)
 end
 
 def winner(board)
-  if(WIN_COMBINATIONS)
+  if(won?(board)=["X","X","X"])
+    return "X"
 end
